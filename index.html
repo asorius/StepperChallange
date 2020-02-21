@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stepper</title>
+  </head>
+  <body>
+    <form class="steps">
+      <div class="steps_list">
+        <div class="steps_list-div step-1 step-active">1</div>
+        <div class="steps_list-div step-2">2</div>
+        <div class="steps_list-div step-3">3</div>
+        <div class="steps_list-div step-4">4</div>
+      </div>
+      <div class="steps_content">
+        <div class="steps_content-item step-1 step-active">
+          <label>Step 1</label>
+          <input type="text" />
+          <button class="next-btn">next</button>
+        </div>
+        <div class="steps_content-item step-2">
+          <label>Step 2</label>
+          <input type="text" />
+          <button class="next-btn">next</button>
+          <button class="prev-btn">prev</button>
+        </div>
+        <div class="steps_content-item step-3">
+          <label>Step 3</label>
+          <input type="text" />
+          <button class="next-btn">next</button>
+          <button class="prev-btn">prev</button>
+        </div>
+        <div class="steps_content-item step-4">
+          <label>Step 4</label>
+          <input type="text" />
+          <button class="prev-btn">prev</button>
+        </div>
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
